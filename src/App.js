@@ -1,18 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import TopSection from './Components/TopSection';
-import About from './Components/AboutSection';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
-
+ import './App.css';
+import Home from './Components/Home';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <TopSection/>
-      <About/>
-      <Contact/>
-      <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
