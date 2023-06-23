@@ -22,7 +22,6 @@ function Product() {
       <div className="grid grid-cols-1 items-center gap-y-16 gap-x-8 lg:grid-cols-2">
         <div>
           <div className="border-b border-gray-200 pb-10">
-            <h2 className="font-medium text-gray-500">Machined Kettle</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Elegant simplicity</p>
           </div>
 

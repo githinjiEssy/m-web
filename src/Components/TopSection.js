@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import './images/img3.png'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -15,9 +16,9 @@ function TopSection() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900">
       <img
-        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+        src="https://i.pinimg.com/564x/44/e5/dd/44e5dd2136556ac3e473510b87bdd271.jpg"
         alt=""
-        className="absolute inset-0 -z-10 h-full w-full object-cover"
+        className="absolute inset-0 -z-10 h-full w-full"
       />
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
         <svg
@@ -135,7 +136,7 @@ function TopSection() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                className="rounded-md bg-lime-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-lime-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
               >
                 Get started
               </a>
